@@ -1,0 +1,32 @@
+{
+  "name": "mongodb-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Syifandi Mulyanto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "method-override": "^2.3.9",
+    "nodemon": "^1.11.0"
+  }
+}
